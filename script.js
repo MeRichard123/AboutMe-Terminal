@@ -1,6 +1,10 @@
 var app = document.getElementById("app");
 const CodePen =
   '<li><a href="https://codepen.io/dashboard/" class="underline">CodePen</a> <br /></li>';
+const Instagram =
+  '<li><a href="https://www.instagram.com/me_richard1/" class="underline">Instagram</a> <br /></li>';
+const GitHub =
+  '<li><a href="https://github.com/MeRichard123" class="underline">GitHub</a> <i class="fas fa-arrow-left"></i> MY PROJECTS <br /></li>';
 
 var typewriter = new Typewriter(app, {
   loop: false,
@@ -19,9 +23,7 @@ typewriter
   //.deleteAll(1)
   .typeString("Find me Online: <br />")
   .pauseFor(300)
-  .typeString(
-    `<ol><li><a href="https://github.com/MeRichard123" class="underline">GitHub</a> <i class="fas fa-arrow-left"></i> MY PROJECTS <br /></li>${CodePen}</ol>`
-  )
+  .typeString(`<ol>${GitHub} ${CodePen} ${Instagram}</ol>`)
   .pauseFor(300)
   .typeString("See some of my projects here:<br />")
   .typeString(
@@ -36,7 +38,7 @@ typewriter
   .pauseFor(300)
   .changeDelay(200)
   .typeString(
-    "My Skill Set includes:<ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>NodeJS</li><li>Python</li>"
+    "My Skill Set Includes:<ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>NodeJS</li><li>Python</li>"
   )
   .changeDelay(100)
   .pauseFor(300)
@@ -56,3 +58,4 @@ typewriter
 //     typewriter.start();
 //   }
 // });
+
