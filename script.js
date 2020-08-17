@@ -38,7 +38,7 @@ typewriter
   .pauseFor(300)
   .changeDelay(200)
   .typeString(
-    "My Skill Set Includes:<ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>NodeJS</li><li>Python</li>"
+    "My Skill Set Includes:<ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>ReactJS</li><li>Python Django</li>"
   )
   .changeDelay(100)
   .pauseFor(300)
